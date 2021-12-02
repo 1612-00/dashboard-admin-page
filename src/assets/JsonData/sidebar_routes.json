@@ -5,8 +5,8 @@
         "icon": "bx bx-category-alt"
     },
     {
-        "display_name": "Customers",
-        "route": "/customers",
+        "display_name": "Customer",
+        "route": "/customer",
         "icon": "bx bx-user-pin"
     },
     {
