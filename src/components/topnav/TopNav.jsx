@@ -9,6 +9,7 @@ import notifications from '../../assets/JsonData/notification.json';
 import user_image from '../../assets/images/tuat.png';
 
 import user_menu from '../../assets/JsonData/user_menus.json';
+import ThemeMenu from '../theme-menu/ThemeMenu';
 
 const curr_user = {
     display_name: 'Tuat Tran',
@@ -69,7 +70,7 @@ const TopNav = () => {
                     />
                 </div>
                 <div className='topnav__right-item'>
-                    <Dropdown />
+                    <ThemeMenu />
                 </div>
             </div>
         </div>
